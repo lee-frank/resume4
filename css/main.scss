@@ -1,0 +1,183 @@
+@import 'colors.scss';
+
+//Universal
+
+// .row .col {
+//  padding-left:0px;
+//  padding-right:0px;
+// }
+
+// .container .row {
+//   margin-bottom:0px;
+//   margin-left:0px;
+//   margin-right:0px;
+// }
+
+.padding-wrap {
+  padding-left:5%;
+  padding-right:5%;
+  padding-top:2%;
+  padding-bottom:1%;
+}
+
+//header
+
+//Round style
+img.profile-round {
+    display: block;
+    max-width:50%;
+    max-height:50%;
+    border-radius:50%;
+    box-shadow: 0px 0px 0px 10px rgba(255,255,255,0.25);   
+    margin:0 auto;
+}
+
+//Square style
+img.profile-square {
+    display: block;
+    max-width:70%;
+    max-height:70%;
+    margin:0 auto;
+}
+
+.header {
+  background-image: url("/images/background1_dark.jpg");
+  background-position:center;
+  background-size:cover;
+  min-height:600px;
+  color:#FFFFFF;
+}
+//Nav
+nav {
+  background-color:$dark-yellow;
+}
+
+nav ul a {
+  color: $black;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size:16px;
+}
+
+//body
+body {
+  background-color:$background-color-grey2;
+}
+
+//Skills
+// section.skills {
+//   background-color:$background-color-grey2;
+// }
+
+// //experience
+// section.skills-experience {
+//   background-color:$background-color-grey2;
+//   min-height:900px;
+// }
+
+//fonts
+h1, h2, h3, h4, h5 {
+   font-family:'Raleway';
+   font-weight: 800;
+   font-style: normal;
+   color: $black;
+   line-height:normal;
+}
+
+.name-text {
+   font-family:'Raleway';
+   font-weight: 800;
+   font-style: normal;
+   color: $dark-yellow;
+   font-size:75px;
+   line-height:normal;
+}
+
+.sub1-text {
+   font-family:"Roboto Condensed";
+   font-weight: 100;
+   font-style: normal;
+   font-size: 35px;
+}
+
+.sub2-text {
+   font-family: "Roboto";
+   font-weight: 100;
+   font-style: normal;
+   font-size: 21px;
+   line-height: 30px;
+   color: $white;
+}
+
+.sub3-text {
+   font-family:'Raleway';
+   font-weight: 800;
+   font-style: normal;
+   color: $black;
+   font-size:20px;
+   line-height:normal;
+}
+
+p {
+  font-size:16px;
+	color: $med-grey;
+	line-height:29px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+//Graphics
+.border-text {
+    border: 2px solid $white;
+}
+
+// .border-lr {
+//     border-left: 10px solid $dark-yellow;
+//     border-right: 10px solid $dark-yellow;
+// }
+
+// .border-bottom {
+//     border-bottom: 4px solid $dark-yellow;
+//     width: 50%;
+//     margin: 0px auto;
+//     height: 1px;
+// }
+
+
+//Colors
+.black-text {
+  color:$black;
+}
+.white-text {
+  color:$white;
+}
+
+.orange-text {
+  color:$orange;
+}
+
+.red-text {
+  color: $light-red;
+}
+
+.blue-text {
+  color: $blue;
+}
+
+.lgrey-text {
+  color:$med-light-grey;
+}
+
+.quote {
+  font-family: 'Coustard', serif;
+  font-size:29px;
+  color:$black
+}
+
+
+
+
+
+
+
+
+
