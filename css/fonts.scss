@@ -1,0 +1,73 @@
+// Profile header text
+.name-text {
+   font-family:'Raleway';
+   font-weight: 800;
+   font-style: normal;
+   color:$black;
+   font-size:55px;
+   line-height:normal;
+}
+
+.job-text {
+  font-family:"Roboto Condensed";
+  font-weight: 800;
+  font-style: normal;
+  color:$med-grey;
+  font-size:30px;
+  line-height:normal;
+}
+
+// fonts
+h1, h2, h3, h4, h5 {
+   font-family:'Raleway';
+   font-weight: 800;
+   font-style: normal;
+   color: $black;
+   line-height:normal;
+}
+
+.header-text {
+   font-family:'Raleway';
+   font-weight: 800;
+   font-style: normal;
+   color: $black;
+   font-size:18px;
+   line-height:normal;
+}
+
+p {
+  font-size:16px;
+	color: $dark-grey;
+	line-height:29px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.p-span {
+  font-size:16px;
+  color: $med-grey;
+  line-height:29px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+}
+.p-bold {
+  font-family:'Raleway';
+  font-weight: 800;
+  font-style: normal;
+  color: $black;
+  font-size:14px;
+}
+
+// lists
+.fa-ul {
+  font-family:'Raleway';
+  font-weight: 300;
+  font-style: normal;
+  color: $dark-grey;
+  font-size:15px;
+  line-height:inherit;
+}
+
+.fa-circle {
+  color:$blue;
+}
