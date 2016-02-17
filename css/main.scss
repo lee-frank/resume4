@@ -55,7 +55,7 @@ body {
   background-image: url("/images/profile_pic2_resize.jpg");
   background-position:center;
   background-size:cover;
-  min-height:650px;
+  min-height:675px;
   color:#FFFFFF;
 }
 
@@ -79,10 +79,7 @@ img.profile-square {
 }
 
 .header {
-  // background-image: url("/images/diagmonds-light.png");
   background-image: url("/images/HNCK5096_dark.jpg");
-  // background-color:$pattern;
-  // background-position:bottom;
   background-size:cover;
   min-height:615px;
   background-repeat: no-repeat;
@@ -133,10 +130,14 @@ footer.page-footer {
   background-color: $blue;
 }
 
-.border-lr {
+.left-border-blue {
     border-left: 10px solid $blue;
     padding-left: 6px;
-    // border-right: 10px solid $dark-yellow;
+}
+
+.left-border-red {
+    border-left: 10px solid $bright-red;
+    padding-left: 6px;
 }
 
 // .border-bottom {
